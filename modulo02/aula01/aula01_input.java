@@ -1,4 +1,4 @@
-package modulo02.aula01;
+package aula01;
 import java.util.Scanner;
 
 class aula01_input {
@@ -9,7 +9,7 @@ class aula01_input {
         String nome;
 
         System.out.print("Digite seu nome: ");
-        nome = input.next();
+        nome = input.nextLine();
 
         System.out.print("Digite sua idade: ");
         idade = input.nextInt();
