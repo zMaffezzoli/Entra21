@@ -1,8 +1,7 @@
-package aula01;
+package aula02;
 import java.util.Scanner;
 
-
-public class aula01_exercicio_ifelse {
+public class exercicio_ifelse {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -23,5 +22,6 @@ public class aula01_exercicio_ifelse {
         else{
             System.out.println(("Os números são iguais"));
         }
+        input.close();
     }
 }

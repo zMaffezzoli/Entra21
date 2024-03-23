@@ -1,7 +1,7 @@
-package aula01;
+package aula02;
 import java.util.Scanner;
 
-class aula01_ifelse {
+class ifelse {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -27,5 +27,6 @@ class aula01_ifelse {
         else{
             System.out.format("Você está rerovado, sua média foi %f", resultado);
         }
+        input.close();
     }
 }

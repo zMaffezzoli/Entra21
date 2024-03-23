@@ -1,7 +1,7 @@
 package aula01;
 import java.util.Scanner;
 
-class aula01_input {
+class input {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -15,5 +15,6 @@ class aula01_input {
         idade = input.nextInt();
 
         System.out.format("Seu nome é %s e você tem %d anos", nome, idade);
+        input.close();
     }
-}
+} 

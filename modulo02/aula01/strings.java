@@ -1,7 +1,7 @@
 package aula01;
 import java.util.Scanner;
 
-public class aula01_strings {
+public class strings {
     public static void main(String[] args) {
         Scanner input =  new Scanner(System.in);
 
@@ -16,5 +16,6 @@ public class aula01_strings {
         }else{
             System.out.format("Seu nome não é Gabriel, seu nome é %s", nome);
         }
+        input.close();
     }
 }

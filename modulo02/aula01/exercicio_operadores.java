@@ -1,7 +1,7 @@
 package aula01;
 import java.util.Scanner;
 
-class aula01_exercicio_operadores {
+class exercicio_operadores {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -16,5 +16,6 @@ class aula01_exercicio_operadores {
         System.out.format("A soma dos dois números é %d\n", (n1+n2));
         System.out.format("A subtração dos dois números é %d\n", (n1-n2));
         System.out.format("A multiplicação dos dois números é %d\n", (n1*n2));
+        input.close();
     }
 }
