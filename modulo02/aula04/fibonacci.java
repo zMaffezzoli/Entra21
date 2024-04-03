@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class fibonacci {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        
         int quantidade_elementos;
         do{
             System.out.print("Quantos elementos da série de fibonacci você gerar ver: ");
